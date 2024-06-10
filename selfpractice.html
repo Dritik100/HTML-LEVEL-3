@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <table border="black">
+        <form action="/server">
+            <tr>
+                <th colspan="2">Registration Form</th>
+            </tr>
+            <tr>
+               <td>
+                <label for="text">Student Name</label>
+               </td>
+               <td> 
+                <input type="text" name="s.name" id="text">
+            </td>
+
+            <tr>
+                <td>
+                 <label for="text">Father's Name</label>
+                </td>
+                <td> 
+                 <input type="text" name="f.name" id="text">
+             </td>
+
+             <tr>
+                <td>
+                 <label for="text">Mother's Name</label>
+                </td>
+                <td> 
+                 <input type="text" name="s.name" id="text">
+             </td>
+
+             <tr>
+                <td>
+                 <label for="date">Date of Birth</label>
+                </td>
+                <td> 
+                 <input type="date" name="D.O.B" id="date">
+             </td>
+
+             <tr>
+                <td>
+                    <label for="">Gender</label>
+                </td>
+                <td>
+                    <label for="male">Male</label>
+                    <input type="radio" name="male" id="male">
+                    <label for="Female">Female</label>
+                    <input type="radio" name="Female" id="Female">
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label for="Email">Email-ID</label>
+                </td>
+                <td>
+                    <input type="email" name="email" id="email">
+                </td>
+             </tr>
+
+             <tr>
+                <td>
+                    <label for="mobile">Mobile No</label>
+                </td>
+                <td>
+                    <input type="text" name="mob" id="mobile">
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label for="address">Address</label>
+                </td>
+                <td>
+                   <textarea name="address" id="" cols="25" rows="7" placeholder="Address"></textarea>
+                </td>
+             </tr>
+             <tr>
+                <td>
+                    <label for="state">State</label>
+                </td>
+                <td>
+                   <select name="state" id="state">
+                    <option value="bihar">Bihar</option>
+                    <option value="Utter Pradesh">Utter Pradesh</option>
+                    <option value="goa">Goa</option>
+                    <option value="Punjab">Punjab</option>
+                   </select>
+
+                </td>
+             </tr>
+
+             <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td>
+                   <select name="city" id="city">
+                    <option value="Siwan">Siwan</option>
+                    <option value="patna">Patna</option>
+                    <option value="Chhapra">Chhapra</option>
+                    <option value="Darbhanga">Darbhanga</option>
+                   </select>
+                </td>
+             </tr>
+             
+             <tr>
+                <td>
+
+                </td>
+                <td>
+                    <button>Submit</button>
+                </td>
+             </tr>
+                
+        </form>
+    </table>
+</body>
+</html>
